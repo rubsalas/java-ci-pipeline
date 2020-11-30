@@ -1,3 +1,10 @@
-language: java
-jdk: oraclejdk8
+Language: java
+Jdk: oraclejdk8
 install: ant deps
+
+deploy:
+    provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    on:
+      branch: master

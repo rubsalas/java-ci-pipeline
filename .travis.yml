@@ -1,2 +1,2 @@
 language: java
-jdk: openjdk-15.0.1
+jdk: oraclejdk15
